@@ -455,175 +455,87 @@ body{
 }
 /* ---------- Footer Close ---------- */
 
-@media only screen and (max-width: 1229px) {
-
-    /* navbar open */
-    .logo{
-        padding: 0 90px;
-    }
-    
-    .logo a{
-        text-decoration: none;
-        color: inherit;
-    }
-    
-    .nav-link{
-        padding: 0 90px ;
-    }
-    /* navbar close */
-
-    /* home open */
-    .home-container{
-        padding-inline: 70px; 
-    }
-    /* home close */
-
-    /* about open */
-
-    /* about close */
-
-    /* navbar open */
-    /* navbar close */
-
-    /* navbar open */
-    /* navbar close */
-}
-
-
-
-@media only screen and (max-width: 500px) {
-    *{
-        /* border: solid red; */
-    }
-    /* navbar open */   
-    .logo{
-        list-style: none;
-        font-size: 30px;
-        padding: 0 50px;
-    }
-    
-    .logo a{
-        text-decoration: none;
-        color: inherit;
-    }
-    
-    .nav-link{
-        display: none;
-    }
-    /* navbar close */
-
-    /* home open */
-    .home-container{
-        padding-inline: 0px; 
+/* Media Query untuk Tablet */
+@media (max-width: 768px) {
+    .navbar .nav-link a {
+        font-size: 0.9rem;
+        margin: 0 5px;
     }
 
-    .profile-text{
-        padding:0 60px;
-    }
-
-    .button-link .btn1{
-        padding: 0 60px;
-    }
-
-    .social-icon{
-        padding: 0 60px;
-    }
-    
-    .profile-img {
-        display: none;
-    }
-    /* home close */
-
-    /* about open */
-    .profile{
-        display:flex;
+    .home-container .container {
         flex-direction: column;
+        text-align: center;
     }
-    
-    .profile-about{
-        padding: 0 40px;
+
+    .profile-text h1 {
+        font-size: 2.5rem;
     }
-    
-    .image-profil img{
-        height: 150px;
-        width: 150px;
-        box-shadow: 0px 3px 6px 5px rgba(218,218,218,1);
+
+    .profile-text h2 {
+        font-size: 1.5rem;
     }
-    
-    .profile-about{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .btn-hire{
-        margin-top: 30px;
-    }
-    
-    .skill{
-        margin-top: 10px;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 40px;
-        display: flex;
+
+    .image-profil img {
+        width: 120px;
+        height: 120px;
         margin-bottom: 20px;
     }
-    
-    .skill-flex{
-        gap: 5px;
-        height: 200px;
-        width: 200px;
-    }
 
-    .skill-flex img{
-        aspect-ratio: 1/1;
-        width: 90px;
-        object-fit: contain;
-    }
-    /* about close */
-
-    /* project open */
-    .experience{
-        gap: 50px;
-    }
-    
-    .experience-flex{
-        height: 250px;
-        width: 390px;
-    }
-    /* project close */
-
-    /* contact open */
-    
-    .find{
-        width: 450px;
-        height:400px;
-    }
-    
-    
-    .form-container{
-        display: flex;
+    .profile {
         flex-direction: column;
-        gap: 15px;
-        width: 450px;
-        height: 476px;
-        margin-bottom: 200px;
+        text-align: center;
     }
-    
-    .contact-form{
-        display: flex;
-        gap: 15px;
+
+    .container-form {
         flex-direction: column;
     }
+}
 
-    .contact-form input{
-        width: 100%;
-        padding: 10px;
-        border: 2px solid #acacac;
-        border-radius: 10px; 
-        font-size: 16px;
-        outline: none;
+/* Media Query untuk Smartphone */
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
     }
 
-    /* contact close */
+    .navbar .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    .navbar .nav-link a {
+        font-size: 0.8rem;
+        margin: 5px 0;
+    }
+
+    .home-container .container {
+        padding: 20px;
+    }
+
+    .profile-text h1 {
+        font-size: 2rem;
+    }
+
+    .profile-text p {
+        font-size: 0.9rem;
+    }
+
+    .about-container {
+        padding: 30px;
+    }
+
+    .project-container {
+        padding: 30px;
+    }
+
+    .contact-container {
+        padding: 30px;
+    }
+
+    .footer-container {
+        font-size: 0.9rem;
+    }
+
+    .footer-nav-list a {
+        font-size: 0.8rem;
+    }
 }
