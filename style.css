@@ -11,21 +11,16 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
-
 /* ---------- header open ---------- */
-main{
-    padding-inline-start: 50px;
-}
 .navbar{
-    display:inline-flex ;
+    display:flex ;
     justify-content: space-between;
-    gap: 170px;
 }
 
 .logo{
     list-style: none;
     font-size: 30px;
-    padding: 0 150px;
+    padding: 0 100px;
 }
 
 .logo a{
@@ -59,7 +54,7 @@ main{
 
 /* ---------- Home Open ---------- */
 .home-container{
-    padding-inline: 70px; 
+    padding-inline: 100px; 
     margin-bottom: 150px;
 }
 
@@ -87,7 +82,6 @@ main{
 .profile-text p {
     margin: 0px;
     font-weight: 400;
-    margin-right: 120px;
     margin-bottom: 20px;
 }
 
@@ -175,7 +169,10 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 80px;
     gap: 10px;
+    margin-bottom: 50px;
+    
 }
 
 .image-profil{
@@ -190,7 +187,7 @@ main{
 }
 
 .profile-about{
-    margin-right: 60px;
+    /* margin-right: 160px; */
 }
 
 .btn-hire{
@@ -218,9 +215,6 @@ main{
     transition: 0.5s;
 }
 
-.container-skill{
-    margin-top: 30px;
-}
 
 .skill{
     margin-top: 10px;
@@ -265,8 +259,6 @@ main{
 .title-project{
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -278,14 +270,11 @@ main{
     flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 20px;
-
 }
 
 .experience-flex{
     display: flex;
     justify-content: center;
-    text-align: center;
-    align-items: center;
     flex-direction: column;
     gap: 15px;
     height: 250px;
@@ -319,7 +308,6 @@ main{
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
     flex-direction: column;
 }
@@ -331,11 +319,9 @@ main{
     justify-content: center;
     display: flexbox;
     flex-wrap: wrap;
-
 }
 
-.find{
-
+.find{    
     gap: 5px;
     display: flex;
     justify-content: center;
@@ -343,7 +329,7 @@ main{
     text-align: center;
     flex-direction: column;
     width: 650px;
-    height:500px;
+    height:450px;
     border-radius: 20px;
     box-shadow: 0px 10px 6px 5px rgba(218,218,218,1);
 }
@@ -363,8 +349,9 @@ main{
     flex-direction: column;
     gap: 15px;
     width: 650px;
-    height:565px ;
+    height: 526px ;
     margin-bottom: 200px;
+
 }
 
 .contact-form{
@@ -411,6 +398,7 @@ main{
 }
 
 .textarea-form textarea{
+    
     padding: 10px;
     border-radius: 10px; 
     font-size: 16px;
@@ -468,11 +456,188 @@ main{
 }
 /* ---------- Footer Close ---------- */
 
+@media only screen and (max-width: 1349px) {
 
-@media only screen and (max-width: 1064px) {
-    /* for tablet */
+    /* navbar open */   
+    /* navbar close */
+
+    /* home open */
+    /* home close */
+
+    /* about open */
+    /* about close */
+
+    /* project open */
+    /* project close */
+
+    /* contact open */
+    /* contact close */
 }
 
-@media only screen and (max-width: 576px) {
-    /* For handphone: */
+@media only screen and (max-width: 1245px) {
+
+    /* navbar open */   
+    /* navbar close */
+
+    /* home open */
+    /* home close */
+
+    /* about open */
+    /* about close */
+
+    /* project open */
+    /* project close */
+
+    /* contact open */
+    /* contact close */
+}
+
+@media only screen and (max-width: 1089px) {
+
+    /* navbar open */   
+    /* navbar close */
+
+    /* home open */
+    /* home close */
+
+    /* about open */
+    /* about close */
+
+    /* project open */
+    /* project close */
+
+    /* contact open */
+    /* contact close */
+}
+
+@media only screen and (max-width: 1079px) {
+
+    /* navbar open */   
+    /* navbar close */
+
+    /* home open */
+    /* home close */
+
+    /* about open */
+    /* about close */
+
+    /* project open */
+    /* project close */
+
+    /* contact open */
+    /* contact close */
+}
+
+@media only screen and (max-width: 663px) {
+
+    /* navbar open */   
+    .logo{
+        list-style: none;
+        font-size: 30px;
+        padding: 0 50px;
+    }
+    
+    .logo a{
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .nav-link{
+        display: none;
+    }
+    /* navbar close */
+
+    /* home open */
+    .home-container{
+        padding-inline: 0px; 
+    }
+    
+    .profile-img {
+        display: none;
+    }
+    /* home close */
+
+    /* about open */
+    .profile{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .profile-about{
+        padding: 0 40px;
+    }
+    
+    .image-profil img{
+        height: 150px;
+        width: 150px;
+        box-shadow: 0px 3px 6px 5px rgba(218,218,218,1);
+    }
+    
+    .profile-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn-hire{
+        margin-top: 30px;
+    }
+    
+    .skill{
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        display: flex;
+        margin-bottom: 20px;
+    }
+    
+    .skill-flex{
+        gap: 5px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .skill-flex img{
+        aspect-ratio: 1/1;
+        width: 90px;
+        object-fit: contain;
+    }
+    /* about close */
+
+    /* project open */
+    .experience{
+        gap: 50px;
+    }
+    
+    .experience-flex{
+        height: 250px;
+        width: 390px;
+    }
+    /* project close */
+
+    /* contact open */
+    
+    .find{
+        width: 450px;
+        height:400px;
+    }
+    
+    
+    .form-container{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 450px;
+        height: 476px ;
+        margin-bottom: 200px;
+    
+    }
+    
+    .contact-form{
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+    /* contact close */
 }
