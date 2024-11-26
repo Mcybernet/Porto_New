@@ -492,7 +492,9 @@ body{
 
 
 @media only screen and (max-width: 500px) {
-
+    *{
+        /* border: solid red; */
+    }
     /* navbar open */   
     .logo{
         list-style: none;
@@ -513,6 +515,18 @@ body{
     /* home open */
     .home-container{
         padding-inline: 0px; 
+    }
+
+    .profile-text{
+        padding:0 60px;
+    }
+
+    .button-link .btn1{
+        padding: 0 60px;
+    }
+
+    .social-icon{
+        padding: 0 60px;
     }
     
     .profile-img {
