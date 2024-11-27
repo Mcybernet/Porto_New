@@ -631,7 +631,7 @@ body{
 
 @media screen and (max-width: 1100px) {
     *{
-        border: solid red;
+        border: solid rgb(0, 255, 255);
     }
     /* ---------- header open ---------- */
     .logo{
@@ -690,7 +690,7 @@ body{
 @media screen and (max-width: 999px) {
     /* ---------- header open ---------- */
     *{
-        border: solid red;
+        border: solid rgb(251, 255, 0);
     }
     .logo{
         padding: 0 40px;
@@ -722,7 +722,7 @@ body{
 
 @media screen and (max-width: 768px) {
     *{
-        border:  solid rgb(255, 124, 124);
+        border:  solid rgb(124, 255, 124);
     }
     /* ---------- header open ---------- */
     .logo{
