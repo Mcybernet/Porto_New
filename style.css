@@ -459,9 +459,7 @@ body{
 @media screen and (max-width: 1200px) {
     *{
         border: solid red;
-
     }
-
     /* ---------- header open ---------- */
     .logo{
         padding: 0 90px;
@@ -578,10 +576,10 @@ body{
 }
 
 @media screen and (max-width: 1177px) {
-    /* ---------- header open ---------- */
     *{
         border: solid red;
     }
+    /* ---------- header open ---------- */
     .logo{
         padding: 0 70px;
     }
@@ -614,10 +612,10 @@ body{
 
 
 @media screen and (max-width: 1112px) {
-    /* ---------- header open ---------- */
     *{
         border: solid red;
     }
+    /* ---------- header open ---------- */
     .logo{
         padding: 0 70px;
     }
@@ -793,8 +791,8 @@ body{
 
     .skill-flex{
         gap: 25px;
-        height: 230px;
-        width: 230px;
+        height: 270px;
+        width: 270px;
     }
 
     .skill-flex img{
