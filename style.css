@@ -174,7 +174,6 @@ body{
     padding: 0 80px;
     gap: 10px;
     margin-bottom: 50px;
-    
 }
 
 .image-profil{
@@ -319,7 +318,7 @@ body{
     display: flex;
     gap: 50px;
     justify-content: center;
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -456,7 +455,429 @@ body{
 }
 /* ---------- Footer Close ---------- */
 
-@media screen and (max-width: 534px) {
+
+@media screen and (max-width: 1200px) {
+    *{
+        border: solid red;
+
+    }
+
+    /* ---------- header open ---------- */
+    .logo{
+        padding: 0 90px;
+    }
+
+    .nav-link{
+        padding: 0 90px ;
+    }
+
+    /* ---------- header close ---------- */
+
+
+
+    /* ---------- Home Open ---------- */
+    .home-container{
+        padding-inline: 90px; 
+    }
+
+    .profile-text {
+        padding-inline: 110px; 
+    }
+
+    .button-link .btn1{
+        padding-inline: 110px; 
+    }
+
+    .social-icon{
+        padding-inline: 110px; 
+    }
+
+    .profile-img img{
+        width: 440px;
+        margin-right: 60px;
+
+    }
+    /* ---------- Home Close ---------- */
+
+
+    /* ---------- About Open ---------- */
+    .profile{
+        padding: 0 150px;
+        gap: 90px;
+    }
+
+    .image-profil{
+        padding-inline: 0px; 
+    }
+
+    .image-profil img{
+        height: 300px;
+        width: 300px;
+    }
+
+    .skill{
+        gap: 25px;
+    }
+
+    .skill-flex{
+        gap: 25px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .skill-flex img{
+        aspect-ratio: 1/1;
+        width: 80px;
+        object-fit: contain;
+    }
+    /* ---------- About Close ---------- */
+
+
+
+    /* ---------- Projects Open ---------- */
+    .experience-flex{
+        gap: 10px;
+        height: 210px;
+        width: 300px;
+    }
+
+    .experience-flex i{
+        font-size: 40px;
+        color: #8a48fc;
+    }
+
+    .experience-flex p{
+        font-weight: 600;
+        font-size:18px ;
+    }
+    /* ---------- Projects Cllose ---------- */
+
+
+
+    /* ---------- Contact Open ---------- */
+    .find{    
+        gap: 3px;
+        width: 500px;
+        height:400px;
+    }
+
+    .form-container{
+        width: 500px;
+        height: 478px ;
+    }
+
+    .contact-form{
+        display: flex;
+        gap: 12px;
+    }
+    /* ---------- Contact CLose ---------- */
+
+    /* ---------- Footer Open ---------- */
+    /* ---------- Footer Close ---------- */
+
+}
+
+@media screen and (max-width: 1177px) {
+    /* ---------- header open ---------- */
+    *{
+        border: solid red;
+    }
+    .logo{
+        padding: 0 70px;
+    }
+
+    .nav-link{
+        padding: 0 70px ;
+    }
+
+    /* ---------- header close ---------- */
+
+
+    /* ---------- Home Open ---------- */
+    .home-container{
+        padding-inline: 70px; 
+    }
+
+    .profile-text {
+        padding-inline: 100px; 
+    }
+
+    .button-link .btn1{
+        padding-inline: 100px; 
+    }
+
+    .social-icon{
+        padding-inline: 100px; 
+    }
+    /* ---------- Home Close ---------- */
+}
+
+
+@media screen and (max-width: 1112px) {
+    /* ---------- header open ---------- */
+    *{
+        border: solid red;
+    }
+    .logo{
+        padding: 0 70px;
+    }
+
+    .nav-link{
+        padding: 0 70px ;
+    }
+
+    /* ---------- header close ---------- */
+
+
+    /* ---------- Home Open ---------- */
+    .home-container{
+        padding-inline: 60px; 
+    }
+    /* ---------- Home Close ---------- */
+}
+
+
+@media screen and (max-width: 1100px) {
+    *{
+        border: solid red;
+    }
+    /* ---------- header open ---------- */
+    .logo{
+        padding: 0 70px;
+    }
+
+    .nav-link{
+        padding: 0 70px ;
+    }
+
+    /* ---------- header close ---------- */
+
+
+    /* ---------- Home Open ---------- */
+    .home-container{
+        padding-inline: 60px; 
+    }
+    .profile-img {
+        display: none;
+    }
+    /* ---------- Home Close ---------- */
+
+    /* about open */
+    .profile{
+        padding: 0 150px;
+        gap: 40px;
+    }
+
+    .image-profil{
+        padding-inline: 0px; 
+    }
+
+    .image-profil img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .skill{
+        gap: 25px;
+    }
+
+    .skill-flex{
+        gap: 25px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .skill-flex img{
+        aspect-ratio: 1/1;
+        width: 80px;
+        object-fit: contain;
+    }
+    /* about close */
+}
+
+@media screen and (max-width: 999px) {
+    /* ---------- header open ---------- */
+    *{
+        border: solid red;
+    }
+    .logo{
+        padding: 0 40px;
+    }
+
+    .nav-link{
+        display: none;
+    }
+    /* ---------- header close ---------- */
+
+    /* ---------- About Open ---------- */
+    .profile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 190px;
+        gap: 25px;
+    }
+    .profile-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* ---------- About Close ---------- */
+
+}
+
+@media screen and (max-width: 768px) {
+    *{
+        border:  solid rgb(255, 124, 124);
+    }
+    /* ---------- header open ---------- */
+    .logo{
+        padding: 0 40px;
+    }
+
+    .nav-link{
+        display: none;
+    }
+    /* ---------- header close ---------- */
+
+
+
+    /* ---------- Home Open ---------- */
+    .home-container{
+        padding-inline: 40px; 
+    }
+
+    .profile-text {
+        padding-inline: 60px; 
+    }
+
+    .button-link .btn1{
+        padding-inline: 60px; 
+    }
+
+    .social-icon{
+        padding-inline: 60px; 
+    }
+
+    .profile-img img{
+    display: none;
+    }
+    /* ---------- Home Close ---------- */
+
+
+    /* ---------- About Open ---------- */
+    .profile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 100px;
+        gap: 25px;
+    }
+    .profile-about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .image-profil img{
+        height: 160px;
+        width: 160px;
+    }
+
+    .skill{
+        gap: 30px;
+    }
+
+    .skill-flex{
+        gap: 25px;
+        height: 230px;
+        width: 230px;
+    }
+
+    .skill-flex img{
+        width: 95px;
+    }
+    /* ---------- About Close ---------- */
+
+
+    /* ---------- Projects Open ---------- */
+    .experience-flex{
+        gap: 0px;
+        height: 230px;
+        width: 360px;
+    }
+
+    .experience-flex i{
+        font-size: 50px;
+        color: #8a48fc;
+    }
+
+    .experience-flex p{
+        font-weight: 600;
+        font-size:18px ;
+    }
+    /* ---------- Projects Cllose ---------- */
+
+
+
+    /* ---------- Contact Open ---------- */
+    .find{    
+        gap: 3px;
+        width: 500px;
+        height:400px;
+    }
+
+    .form-container{
+        width: 500px;
+        height: 478px ;
+    }
+
+    .contact-form{
+        display: flex;
+        gap: 12px;
+        flex-direction: column;
+    }
+    /* ---------- Contact CLose ---------- */
+
+    /* ---------- Footer Open ---------- */
+    /* ---------- Footer Close ---------- */
+    /* navbar open */
+    /* navbar close */
+
+    /* home open */
+    /* home close */
+
+    /* about open */
+    /* about close */
+
+    /* project open */
+    /* project close */
+
+    /* contact open */
+    /* contact close */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
     /* navbar open */
     .navbar{
         /* border: solid red; */
@@ -602,7 +1023,6 @@ body{
         padding: 0 80px;
         gap: 10px;
         margin-bottom: 50px;
-        
     }
     
     .image-profil{
@@ -647,35 +1067,20 @@ body{
         transition: 0.5s;
     }
     
-    
     .skill{
-        margin-top: 10px;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 35px;
-        display: flex;
-        margin-bottom: 20px;
+        gap: 30px;
     }
-    
+
     .skill-flex{
-        gap: 5px;
-        height: 150px;
-        width: 150px;
-        padding: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction:column;
-        border-radius: 20px;
-        box-shadow: 0px 10px 6px 5px rgba(218,218,218,1);
-        transition: 0.3s;
+        gap: 25px;
+        height: 260px;
+        width: 260px;
     }
 
     .skill-flex img{
-        aspect-ratio: 1/1;
-        width: 50px;
-        object-fit: contain;
+        width: 100px;
     }
+    
     
     .skill-flex:hover{
         transform: translateY(-10px);
@@ -704,7 +1109,7 @@ body{
         display: flex;
         gap: 50px;
         justify-content: center;
-        display: flexbox;
+        display: flex;
         flex-wrap: wrap;
     }
     
