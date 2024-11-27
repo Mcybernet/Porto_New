@@ -458,7 +458,7 @@ body{
 
 @media screen and (max-width: 1200px) {
     *{
-        border: solid red;
+        border: solid rgb(68, 255, 0);
     }
     /* ---------- header open ---------- */
     .logo{
@@ -471,23 +471,21 @@ body{
 
     /* ---------- header close ---------- */
 
-
-
     /* ---------- Home Open ---------- */
     .home-container{
-        padding-inline: 90px; 
+        padding-inline: 60px; 
     }
 
     .profile-text {
-        padding-inline: 110px; 
+        padding-inline: 80px; 
     }
 
     .button-link .btn1{
-        padding-inline: 110px; 
+        padding-inline: 80px; 
     }
 
     .social-icon{
-        padding-inline: 110px; 
+        padding-inline: 80px; 
     }
 
     .profile-img img{
@@ -530,8 +528,6 @@ body{
     }
     /* ---------- About Close ---------- */
 
-
-
     /* ---------- Projects Open ---------- */
     .experience-flex{
         gap: 10px;
@@ -549,8 +545,6 @@ body{
         font-size:18px ;
     }
     /* ---------- Projects Cllose ---------- */
-
-
 
     /* ---------- Contact Open ---------- */
     .find{    
@@ -791,8 +785,9 @@ body{
 
     .skill-flex{
         gap: 25px;
-        height: 270px;
-        width: 270px;
+        height: 230px;
+        width: 230px;
+        flex-direction: column;
     }
 
     .skill-flex img{
