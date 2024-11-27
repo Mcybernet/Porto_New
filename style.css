@@ -883,8 +883,5 @@ body{
         color: inherit;
     }
     /* footer close */
-    *{
-        border: solid rgb(122, 127, 255);
-    }
-    
+
 }
