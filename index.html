@@ -11,7 +11,7 @@
 
 <body>
     <header class="navbar">
-        <div id="home" class="logo">
+        <div class="logo">
             <a href="#home"><h1>Logo</h1></a>
         </div>
 
@@ -21,11 +21,22 @@
             <a href="#project">Project</a>
             <a href="#contact">Contact</a>
         </nav>
+
+    
+        <div class="ham-menu">
+            <!-- <input type="checkbox"> -->
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    
+
+
     </header>
 
     <main>
         <!-- Home Section -->
-        <article class="home-container">
+        <article id="home" class="home-container">
             <div class="container">
                 <div class="wrapper">
                     <div class="profile-text">
@@ -174,5 +185,13 @@
         </div>
         <p>Copyright &copy; Muhamad - All rights reserved 2024</p>
     </footer>
+    <script>
+        const hamMenu = document.querySelector('.ham-menu');
+        const navLink = document.querySelector('.nav-link');
+        hamMenu.addEventListener('click', () => {
+            hamMenu.classList.toggle('active');
+            navLink.classList.toggle('active');
+        })
+    </script>
 </body>
 </html>
