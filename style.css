@@ -39,7 +39,6 @@ body{
 }
 
 .nav-link a{
-    font-size: medium;
     text-decoration: none;
     color: inherit;
     font-size: larger;
@@ -485,6 +484,7 @@ body{
 
     .nav-link a{
         color: #ffffff;
+        font-size:medium;
     }
 
     .nav-link a:hover{
@@ -543,7 +543,7 @@ body{
         top: 50%;
         transform: translate(-50%, -50%) rotate(-45deg);
     }
-    
+
     .profile-img {
         display: none;
     }
