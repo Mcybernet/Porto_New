@@ -13,6 +13,7 @@
 
 <body>
     <header>
+        <div class="nav-overlay" id="nav-overlay"></div>
         <nav class="navbar">
             <div class="logo">
                 <h1>Logo</h1>
@@ -206,18 +207,25 @@
 
         const hamMenu = document.querySelector(".ham-menu");
         const navLink = document.querySelector(".nav-link");
+        const navOverlay = document.querySelector(".nav-overlay");
 
         function closeMenu() {
             navLink.classList.remove("active");
             hamMenu.classList.remove("active");
+            navOverlay.classList.remove("active");
+            document.documentElement.classList.remove("menu-open");
             hamMenu.setAttribute("aria-expanded", "false");
         }
 
         hamMenu.addEventListener("click", () => {
             const isOpen = navLink.classList.toggle("active");
             hamMenu.classList.toggle("active", isOpen);
+            navOverlay.classList.toggle("active", isOpen);
+            document.documentElement.classList.toggle("menu-open", isOpen);
             hamMenu.setAttribute("aria-expanded", isOpen ? "true" : "false");
         });
+
+        navOverlay.addEventListener("click", closeMenu);
 
         navLink.querySelectorAll("a").forEach((link) => {
             link.addEventListener("click", closeMenu);
