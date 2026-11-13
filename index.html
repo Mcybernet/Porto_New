@@ -17,7 +17,12 @@
             <div class="logo">
                 <h1>Logo</h1>
             </div>
-            <ul class="nav-link">
+            <button class="ham-menu" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="nav-link">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-link" id="nav-link">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#project">Project</a></li>
@@ -198,6 +203,33 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+
+        const hamMenu = document.querySelector(".ham-menu");
+        const navLink = document.querySelector(".nav-link");
+
+        function closeMenu() {
+            navLink.classList.remove("active");
+            hamMenu.classList.remove("active");
+            hamMenu.setAttribute("aria-expanded", "false");
+        }
+
+        hamMenu.addEventListener("click", () => {
+            const isOpen = navLink.classList.toggle("active");
+            hamMenu.classList.toggle("active", isOpen);
+            hamMenu.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        });
+
+        navLink.querySelectorAll("a").forEach((link) => {
+            link.addEventListener("click", closeMenu);
+        });
+
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "Escape") closeMenu();
+        });
+
+        window.addEventListener("resize", () => {
+            if (window.innerWidth > 768) closeMenu();
+        });
     </script>
 </body>
 
