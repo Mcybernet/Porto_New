@@ -227,6 +227,12 @@
             if (event.key === "Escape") closeMenu();
         });
 
+        document.addEventListener("click", (event) => {
+            if (!navLink.classList.contains("active")) return;
+            if (navLink.contains(event.target) || hamMenu.contains(event.target)) return;
+            closeMenu();
+        });
+
         window.addEventListener("resize", () => {
             if (window.innerWidth > 768) closeMenu();
         });
